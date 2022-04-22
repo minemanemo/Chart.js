@@ -2756,6 +2756,11 @@ export interface TooltipOptions<TType extends ChartType = ChartType> extends Cor
    */
   textDirection: Scriptable<string, ScriptableTooltipContext<TType>>;
 
+  /**
+   * 브ㄹ라블랍;
+   */
+  padding: unknown;
+
   animation: AnimationSpec<TType>;
   animations: AnimationsSpec<TType>;
   callbacks: TooltipCallbacks<TType>;
